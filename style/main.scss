@@ -202,6 +202,12 @@ hr {
         // margin-top: 59px;
       }
 
+      .score-sharing {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+
       @include animation(fade-in 800ms ease $transition-speed * 12);
       @include animation-fill-mode(both);
 
@@ -408,6 +414,11 @@ hr {
 
 .game-explanation {
   margin-top: 50px;
+}
+
+.sharing {
+  margin-top: 20px;
+  text-align: center;
 }
 
 @include smaller(480px) {
