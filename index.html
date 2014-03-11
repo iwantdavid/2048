@@ -5,6 +5,7 @@
   <title>2048</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
   <script src="js/hammer.min.js"></script>
   <script src="js/keyboard_input_manager.js"></script>
@@ -24,7 +25,7 @@
       <h1 class="title">2048</h1>
       <div class="score-container">0</div>
     </div>
-    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+    <p class="game-intro">Join tiles and get to the <strong>BLACK tile!</strong></p>
 
     <div class="game-container">
       <div class="game-message">
@@ -67,8 +68,31 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same color touch, they <strong>merge</strong> and level up to the next color!
     </p>
+    <div class="tile-progression">
+      <div class="tile-sample tile tile-2"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-4"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-8"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-16"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-32"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-64"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-128"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-256"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-512"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-1024"></div>
+      <span class="arrow-icon">&rarr;</span>
+      <div class="tile-sample tile tile-2048"></div>
+    </div>
     <hr>
     <p>
       Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio.</a>
